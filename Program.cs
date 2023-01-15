@@ -23,7 +23,17 @@ void DoBasicKnowledgeFinalWork(string[] inputArray)
 
 string[] FillArray(string[] inputArray)
 {
-    return null;
+    string[] outputArray = new string[] { };
+    for (int i = 0; i < inputArray.Length; i++)
+    {
+        var element = inputArray[i];
+        if (element.Length <= 3)
+        {
+            outputArray = AddElement(outputArray, element);
+        }
+    }
+
+    return outputArray;
 }
 
 string[] AddElement(string[] array, string item)
