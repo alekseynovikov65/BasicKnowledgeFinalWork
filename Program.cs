@@ -28,4 +28,13 @@ string[] FillArray(string[] inputArray)
 
 static void PrintArray(string[] outputArray)
 {
+    Console.Write("[");
+    for (int i = 0; i < outputArray.Length; i++)
+    {
+        var element = outputArray[i];
+        Console.Write($"""{element}""");
+        if (i != outputArray.Length - 1)
+            Console.Write(", ");
+    }
+    Console.WriteLine("]");
 }
