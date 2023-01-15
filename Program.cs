@@ -26,6 +26,18 @@ string[] FillArray(string[] inputArray)
     return null;
 }
 
+string[] AddElement(string[] array, string item)
+{
+    if (array == null)
+    {
+        return new string[] { item };
+    }
+    string[] result = new string[array.Length + 1];
+    array.CopyTo(result, 0);
+    result[array.Length] = item;
+    return result;
+}
+
 static void PrintArray(string[] outputArray)
 {
     Console.Write("[");
