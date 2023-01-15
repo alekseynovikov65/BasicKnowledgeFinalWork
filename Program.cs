@@ -10,3 +10,11 @@ string[] inputArray3 = new string[]
 {
     "Russia", "Denmark", "Kazan"
 };
+
+DoBasicKnowledgeFinalWork(inputArray1);
+DoBasicKnowledgeFinalWork(inputArray2);
+DoBasicKnowledgeFinalWork(inputArray3);
+
+void DoBasicKnowledgeFinalWork(string[] inputArray)
+{
+}
