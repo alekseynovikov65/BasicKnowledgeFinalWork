@@ -17,4 +17,15 @@ DoBasicKnowledgeFinalWork(inputArray3);
 
 void DoBasicKnowledgeFinalWork(string[] inputArray)
 {
+    string[] outputArray = FillArray(inputArray);
+    PrintArray(outputArray);
+}
+
+string[] FillArray(string[] inputArray)
+{
+    return null;
+}
+
+static void PrintArray(string[] outputArray)
+{
 }
